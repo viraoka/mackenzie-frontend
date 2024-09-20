@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.prefooter {
+    font-family: 'Raleway', sans-serif;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.pref {
+    font-size: 17px;
+    text-align: center;
+    padding: 20px 30px 10px 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 30px 10px;
+}
+
+.inst {
+    color: white;
+    margin-top: 30px;
+    margin-right: 40px; 
+    width: 5px;
+}
+
+
+@media all and (max-width: 450px) {
+    .inst {
+        font-size: 20px;
+        margin-left: 17px;
+    }
+}
+
+@media all and (min-width: 750px) {
+    .prefooter {
+        font-family: 'Raleway', sans-serif;
+        padding: 30px;
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+    .inst {
+        font-size: 20px;
+    }
+}

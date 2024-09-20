@@ -1,0 +1,40 @@
+.hall {
+    width: 100%;
+    margin-top: 70px;
+}
+
+.comproject {
+    width: 80%;
+    height: 580px;
+}
+
+@media all and (max-width: 450px) {
+    .project {
+        width: 320px;
+        height: 200px;
+    }
+    .our {
+        font-size: 25px;
+        margin: 30px;
+    }
+    .award {
+        font-size: 25px;
+        margin: 20px;
+        margin-top: 40px;
+    }
+    .resident {
+        font-size: 18px;
+        margin-left: 30px;
+        margin-right: 30px;
+        line-height: 30px;
+        word-spacing: 1px;
+    }
+    .feature {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .comproject {
+        width: 320px;
+        height: 200px;
+    }
+}
